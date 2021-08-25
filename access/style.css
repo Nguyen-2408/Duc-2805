@@ -1,0 +1,787 @@
+.meofixe1{
+    width:50px;
+    position:absolute;
+    top:0px;
+    left:500px;
+    border-radius: 50%;
+}
+.meofixe1:hover{
+    width:50px;
+    transition: 3s;
+    border-radius: 0;
+
+}
+.meofixe2:hover{
+    width:50px;
+    transition: 3s;
+    border-radius: 0;
+}
+
+.meofixe2{
+    
+    width:50px;
+    position:absolute;
+    top:0px;
+    left:710px;
+    border-radius: 50%;
+
+}
+
+.tit-one{
+    position:absolute;
+    top:10px;
+    left:900px;
+    text-decoration: none;
+    font-weight: bolder;
+    width:30px;
+    height:20px;
+    border:1px solid #ccc;
+    background-color: cornsilk;
+    border-radius:5px;
+    
+}
+
+.tit-two{
+    position:absolute;
+    top:10px;
+    left:1000px;
+    text-decoration: none;
+    font-weight: bolder;
+    width:30px;
+    height:20px;
+    border:1px solid #ccc;
+    background-color: cornsilk;
+    border-radius:5px;
+}
+
+.tit-three{
+    position:absolute;
+    top:10px;
+    left:1100px;
+    text-decoration: none;
+    font-weight: bolder;
+    width:30px;
+    height:20px;
+    border:1px solid #ccc;
+    background-color: cornsilk;
+    border-radius:5px;
+}
+  
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+        background-image: url(https://i.stack.imgur.com/LCCB6.jpg);
+}
+#text{
+
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    margin-top: 45px;
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.95;
+}
+
+.values {
+    width: 100px;
+    margin-right: 4px;
+    color:rgb(87, 85, 85);
+    font-family:monospace;
+    text-align: center;
+
+}
+#num1 {
+    margin-left: 2px;
+}
+
+.firstLabel {
+    margin-left: -5px;
+    
+}
+
+#gender {
+    margin-left: -5px;
+}
+#btn {
+    border: solid #000 2px;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+#btn:hover {
+    background-color: #d8d8b0;
+    font-weight: bold; 
+    box-shadow: 0 0 5px 5px #ccc;
+    color:rgb(255, 72, 0);
+}
+h4 {
+    padding-top: 25px;
+}
+
+#result {
+    border: solid #ccc 2px;
+    border-radius: 10px;
+    width:150px;
+    padding-top: 10px;
+    position: relative;
+    left: 23%;
+    height:40px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+}
+#calc {
+    border: solid #000 3px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: absolute;
+    top: 4200px;
+    left:36%;
+    background:linear-gradient(rgb(163, 189, 71),rgb(194, 72, 72))
+
+}
+
+#message {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text-one{
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding:5px;
+    box-shadow: 0px 1px 7px 5px #63c2df;
+    background-color: palevioletred;
+}
+.text-one:hover{
+    transition: 1s;
+    color:#000;
+    background: linear-gradient(to right,rgb(167, 177, 110),rgb(82, 90, 168));
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+/* CSS list image */
+
+#image{
+    
+    position:relative;
+}
+
+.vip{  
+    border-radius: 10px;
+    margin-top: 100px;  
+}
+
+.a1{
+    position: absolute;
+    width: 200px;
+    height: 320px;
+    left:150px;
+    z-index: 10;
+    border-radius: 90px;
+}
+
+.a2{
+    position: absolute;
+    width: 200px;
+    z-index: 10;
+    border-radius: 90px;
+    height: 320px;
+   
+    left:400px;
+}
+
+.a3{
+    border-radius: 90px;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 320px;
+   
+    left:650px;
+}
+
+.a4{
+    z-index: 10;
+    border-radius: 90px;
+    position: absolute;
+    width: 200px;
+    height: 320px;
+     left:900px;
+}
+
+.a1:hover{
+    border-radius:10px;
+    position: absolute;
+    top:0px;
+    left:170px;
+    transition: 2s;
+    width: 160px;
+    height:auto;
+    z-index: 9999;
+}
+.a2:hover{
+    left:420px;
+    border-radius:10px;
+    transition: 2s;
+    position: absolute;
+    top:0px;
+    width: 160px;
+    height:auto;
+    z-index: 9999;
+}
+.a3:hover{
+    left:670px;
+    border-radius:10px;
+    transition: 2s;
+    position: absolute;
+    top:0px;
+    width: 160px;
+    height:auto;
+    z-index: 9999;
+}
+.a4:hover{
+    
+    border-radius:10px;
+    position: absolute;
+    top:0px;
+    width: 160px;
+    transition: 2s;
+    height:auto;
+    z-index: 9999;
+}
+
+.anh1{
+    width:800px;
+    position: absolute;
+    top:350px;
+    left:250px;
+    
+}
+.anh2{
+    top:850px;
+    left:50px;
+    width:300px;
+    position: absolute;
+    
+}
+.anh3{
+    top:850px;
+    left:425px;
+    width: 300px;
+    position: absolute;
+    
+}
+.anh4{
+    top:850px;
+    left:800px;
+    height:422px;
+    position: absolute;
+    width: 300px;
+  
+}
+.anh5{
+    
+    top:1350px;
+    left:250px;
+    position: absolute;
+    width: 240px;
+    color:oldlace;
+    opacity: 0.2;
+}
+.anh5:hover{
+    transition: 2s;
+    opacity: 2;
+}
+.anh6{
+    
+    top:1450px;
+    left:650px;
+    position: absolute;
+    width: 400px;
+    opacity: 0.2;
+    
+}
+.anh6:hover{
+    transition: 2s;
+    opacity: 2;
+}
+.anh7{
+    
+    top:2050px;
+    left:100px;
+    
+    position: absolute;
+    width: 350px;
+    
+}
+.anh8{
+    top:2150px;
+    left:500px;
+    width: 600px;
+    position: absolute;
+    
+}
+.anh9{
+    top:2550px;
+    left:100px;
+    width: 300px;
+    position: absolute;
+  
+}
+
+.anh11{
+    top:2550px;
+    left:420px;
+    width: 300px;
+    position: absolute;
+    
+}
+.anh12{
+    top:2550px;
+    left:750px;
+    width: 450px;
+    position: absolute;
+    
+}
+.anh13{
+    top:2900px;
+    left:750px;
+    width: 450px;
+    position: absolute;
+    
+}
+.anh14{
+    top:3250px;
+    left:100px;
+    width: 310px;
+    position: absolute;
+    
+}
+.anh15{
+    top:3250px;
+    left:420px;
+    width: 320px;
+    position: absolute;
+    
+}
+.anh16{
+    top:3250px;
+    left:750px;
+    width: 300px;
+    
+    position: absolute;
+    
+}
+.anh17{
+    top:3550px;
+    left:500px;
+    width: 200px;
+    position: absolute;
+    border-radius:20px;
+    
+}
+.anh17:hover{
+    transition: 3s;
+    border-radius: 50%;
+}
+
+
+.vippro{
+    position: fixed;
+    top:20px;
+    left:0;
+    text-decoration: none;
+    width:140px;
+    height:30px;
+    line-height: 30px;
+    background-color: palegreen;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 999999;
+}
+.vippro:hover{
+    transition: 2s;
+    box-shadow: 0px 2px 10px 10px rgb(214, 87, 87);
+    background-color: rgb(158, 201, 197);
+}
+
+.tit-one{
+    color:beige;
+    height:25px;
+    line-height: 25px;
+    width: 50px;
+    background-color: rgb(122, 122, 122);
+    box-shadow: 0px 5px 10px 5px #ccc;
+}
+.tit-one:hover{
+    background-color: aqua;
+    color:rgb(54, 53, 53);
+}
+.tit-two{
+    color:beige;
+    line-height: 25px;
+    height:25px;
+    width: 50px;
+    background-color: rgb(102, 102, 102);
+    box-shadow: 0px 5px 10px 5px #ccc;
+}
+.tit-two:hover{
+    background-color: aqua;
+    color:rgb(54, 53, 53);
+}
+
+.tit-three{
+    color:beige;
+    line-height: 25px;
+    width: 50px;
+    height:25px;
+    background-color: rgb(124, 124, 124);
+    box-shadow: 0px 5px 10px 5px #ccc;
+}
+.tit-three:hover{
+    background-color: aqua;
+    color:rgb(54, 53, 53);
+}
+
+
+@media (max-width:740px){
+
+    html{
+        scroll-behavior: smooth;
+        background-image: url(https://i.stack.imgur.com/LCCB6.jpg);
+        width:100%;
+        
+    }
+
+    #image{
+        margin:0;
+        padding:0;
+        max-width: 414px;
+    }
+
+    .vippro{
+        position: fixed;
+        top:250px;
+        font-size: 12px;
+        width: 35px;
+        height:90px;
+        color:black;
+        font-weight: bold;
+    }
+
+    body{
+        
+        text-align: center;
+        font-family: monospace, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        opacity: 0.95;
+
+    }
+
+    #text{
+        
+    }
+    .text-one{
+        position: absolute;
+        width: 70px;
+        height:20px;
+        top:110px;
+        left:165px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 20px;
+    }
+    
+    #calc {
+       position: absolute;
+       left:90px;
+       width: 200px;
+       top:5900px;
+    }
+    
+    #result {
+        position: relative;
+        width: 34%;
+        left: 22%;
+    }    
+    
+    #radio {
+        position: relative;
+        width: 78%;
+    }
+    #num1 {
+        margin-left: -3px;
+        margin-right: 4px;
+    }
+    #num2 {
+        margin-left: -6px;
+        margin-right: 6px;
+    }
+    .secondLabel{
+        margin-left: 90px;
+    }
+
+    .text-one:hover{
+        transition: 2s;
+        color:#000;
+        background: linear-gradient(to right,rgb(15, 223, 205),rgb(180, 118, 185));
+        border-top-left-radius: 5px;
+        border-top-right-radius: 13px;
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 5px;
+    }
+
+
+    .a1{
+        position: absolute;
+        height:200px;
+        left:100px;
+        top:60px;
+        z-index: 10;
+    }
+    
+    .a2{
+        position: absolute;
+        height:200px;
+        z-index: 10;
+        top:300px;
+        left:100px;
+    }
+    
+    .a3{
+        position: absolute;
+        z-index: 10;
+        height: 200px;
+        left:100px;
+        top:550px;
+    }
+    
+    .a4{
+        z-index: 10;
+        position: absolute;
+        height:200px;
+        left:100px;
+        top:800px;
+    }
+    .a1:hover{
+        position: absolute;
+        left:115px;
+        height:290px;
+        top:20px;
+        width: 170px;
+        
+        }
+
+    .a2:hover{
+        height:290px;
+        
+        position: absolute;
+        left:115px;
+        top:260px; 
+        }
+
+    .a3:hover{
+        height:290px;
+
+        position: absolute;
+        left:115px;
+        top:505px;
+        }
+
+    .a4:hover{
+        height:290px;
+
+        position: absolute;
+        left:115px;
+        top:530px;
+        }
+    .anh1{
+        display: none;
+    }
+    .anh2{
+     top: 1025px;
+    left: 100px;
+    width: 220px;
+    position: absolute;
+    }
+    .anh3{
+        top: 1350px;
+    left: 100px;
+    width: 220px;
+    position: absolute;
+    }
+    .anh4{
+        top: 1678px;
+    left: 100px;
+    position: absolute;
+    width: 220px;
+    }
+    .anh5{
+    top: 2130px;
+    left: 110px;
+    position: absolute;
+    width: 200px;
+    color: oldlace;
+    opacity: 0.3;
+    }
+    .anh6{
+    top: 2580px;
+    left: 110px;
+    position: absolute;
+    width: 200px;
+    opacity: 0.2;
+    }
+    .anh7{
+        top: 2770px;
+        left: 110px;
+        position: absolute;
+        width: 200px;
+    }
+    .anh8{
+        top: 3080px;
+        left: 110px;
+        width: 200px;
+        position: absolute;
+    }
+    .anh9{
+        top: 3220px;
+    left: 110px;
+    width: 200px;
+    position: absolute;
+    }
+    .anh11{
+        
+    top: 3690px;
+    left: 100px;
+    width: 200px;
+    position: absolute;
+
+    }
+    .anh12{
+        top: 4150px;
+        left: 100px;
+        width: 200px;
+        position: absolute;
+    }
+    .anh13{
+        top: 4270px;
+    left: 100px;
+    width: 200px;
+    position: absolute;
+    }
+
+    .anh14{
+        top: 4400px;
+    left: 100px;
+    width: 200px;
+    position: absolute;
+    }
+    .anh15{
+        top: 4710px;
+    left: 100px;
+    width: 200px;
+    position: absolute;
+    }
+    .anh16{
+        top: 5020px;
+        left: 100px;
+        width: 200px;
+        position: absolute;
+    }
+    .anh17{
+        top: 5350px;
+    left: 100px;
+    width: 200px;
+    position: absolute;
+    border-radius: 20px;
+    }
+        .meofixe1{
+            width:50px;
+            position:absolute;
+            top:30px;
+            left:70px;
+            border-radius: 50%;
+        }
+
+        .meofixe2{
+            width:50px;
+            width:50px;
+            position:absolute;
+            top:30px;
+            left:290px;
+            border-radius: 50%;
+
+        }
+
+        .tit-one{
+            position:absolute;
+            left:120px;
+            text-decoration: none;
+            font-weight: bolder;
+            width:40px;
+            height:20px;
+            border:1px solid #ccc;
+            box-shadow: 0px 4px 5px #fff;
+            background-color: cornsilk;
+            border-radius:5px;
+            
+        }
+
+        .tit-two{
+            left:180px;
+
+            text-decoration: none;
+            font-weight: bolder;
+            width:40px;
+            height:20px;
+            border:1px solid #ccc;
+            box-shadow: 0px 4px 5px #fff;
+            background-color: cornsilk;
+            border-radius:5px;
+        }
+
+        .tit-three{
+            left:240px;
+
+            text-decoration: none;
+            font-weight: bolder;
+            width:40px;
+            height:20px;
+            border:1px solid #ccc;
+            box-shadow: 0px 4px 5px #fff;
+            background-color: cornsilk;
+            border-radius:5px;
+        }
+        #none{
+            height: 6700px;
+        }
+
+    }
